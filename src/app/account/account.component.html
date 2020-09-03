@@ -1,0 +1,20 @@
+<table>
+    <tr>
+        <th>User name</th>
+        <th>Birth Date</th>
+        <th>Age</th>
+        <th>Email</th>
+        <th>Valid</th>
+    </tr>
+    <tr>
+        <td>{{username}}</td>
+        <td>{{birthdate}}</td>
+        <td>{{age}}</td>
+        <td>{{email}}</td>
+        <td>{{valid}}</td>
+    </tr>
+</table>
+
+<button class="btn btn-lg btn-primary btn-block" (click)="edit()" type="submit">Edit</button>
+
+<button class="btn btn-lg btn-primary btn-block" (click)="add()" type="submit">Add user</button>
